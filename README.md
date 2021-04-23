@@ -29,6 +29,9 @@ onclick to delete a keg (inventory) {stretch} {_done_}
 
 ## Component Diagram
 
+
+
+
 ## User Stories
 
 |  # 	|  Stories 	|
@@ -40,7 +43,6 @@ onclick to delete a keg (inventory) {stretch} {_done_}
 |  5 	|   When there is a keg in the inventory that is extra expensive, the user should see the details of the keg listed in red font, not black.	|
 |  6 	|   Kegs should have fields for name, brand, price, alcoholContent.	|
 |  7 	|   A user should be able to see how many pints are left in a keg.	|
-
 </div>
 
 <div align="center">
