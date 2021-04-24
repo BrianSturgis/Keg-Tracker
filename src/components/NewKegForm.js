@@ -11,11 +11,11 @@ function NewKegForm(props){
 
   return (
     <React.Fragment>
-      <form onSubmit={handleNewTicketFormSubmission}>
+      <form onSubmit={handleNewKegFormSubmission}>
         <input
           type='text'
           name='names'
-          placeholder='Names' />
+          placeholder='name of beer' />
         <input
           type='text'
           name='brand'
@@ -26,8 +26,8 @@ function NewKegForm(props){
 				<input
           type='text'
           name='alcoholContent'
-          placeholder='alcoholContent' />
-        <button type='submit'>Help!</button>
+          placeholder='alcoholContent and type' />
+        <button type='submit'>add new keg</button>
       </form>
 
     </React.Fragment>
