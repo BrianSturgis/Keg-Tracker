@@ -1,11 +1,8 @@
-
 # Keg Tracker
-
 <p align="center"> Authored by Brian Sturgis</p>
 <p align="center">Project started on April 23rd, 2021</p>
 
 ## Description
-
 This is an application for a Bar to track their keg inventory.
 
 ###  Functions
@@ -23,17 +20,16 @@ update keg {stretch} {_done_}
 
 DELETE
 onclick to delete a keg (inventory) {stretch} {_done_}
+
 ### Known Bugs
+- none yet 
+  
 
 <div align="center">
 
 ## Component Diagram
 
-
-
-
 ## User Stories
-
 |  # 	|  Stories 	|
 |---	|---	|
 |  1 	|  A user should be able to Create, Update, Delete, and see list and details of kegs in the tap room. 	|
@@ -44,7 +40,6 @@ onclick to delete a keg (inventory) {stretch} {_done_}
 |  6 	|   Kegs should have fields for name, brand, price, alcoholContent.	|
 |  7 	|   A user should be able to see how many pints are left in a keg.	|
 </div>
-
 <div align="center">
 
 ---
@@ -52,15 +47,12 @@ onclick to delete a keg (inventory) {stretch} {_done_}
 ## Wireframe
 
 
-
 </div>
 
 ## Stretch Goals
-
 - Implement more CSS/CSS objects
 
 ## Technologies Used
-
 - [VS Code](https://code.visualstudio.com/download)
 - Git & GitHub
 - ES6 JavaScript
