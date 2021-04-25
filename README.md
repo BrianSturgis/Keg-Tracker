@@ -5,24 +5,9 @@
 ## Description
 This is an application for a Bar to track their keg inventory.
 
-###  Functions
-CREATE
-onclick to create a new keg from form {_done_}
-
-READ - Details
-onclick toggle details {_done_}
-view # of pints left in a keg (full keg ~ 124 pints) {_done_}
-have keg say "OOS" when pintsLeft === 0 {stretch} {_done_}
-
-UPDATE
-onclick for decrementing quantity(inventory) - (kegs !<= 0) {_done_}
-update keg {stretch} {_done_}
-
-DELETE
-onclick to delete a keg (inventory) {stretch} {_done_}
 
 ### Known Bugs
-- none yet 
+- keg refill button does not top off keg it adds 124 pints and is not the expectation of the function
   
 
 <div align="center">
