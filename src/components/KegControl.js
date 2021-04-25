@@ -15,7 +15,6 @@ class KegControl extends React.Component {
 			selectedKeg: null,
 			editing: false
     };
-    
   }
 
   handleClick = () => {
@@ -36,7 +35,7 @@ class KegControl extends React.Component {
     this.setState({
 		masterKegList: newMasterKegList,
     formVisibleOnPage: false
-	 });
+	});
   }
 
 	handleChangingSelectedKeg = (id) => {

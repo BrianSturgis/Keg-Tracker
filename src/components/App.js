@@ -5,8 +5,15 @@ import KegControl from "./KegControl";
 function App(){
   return (
     <React.Fragment>
-    <h1>Keg Tracker</h1>
-    <KegControl />
+      <div className="container">
+        <div className="logo"></div>
+        <div className="header"></div>
+        <div className="nav">
+        </div>
+        <div className="content"></div>
+        <div className="footer"></div>
+        <KegControl />
+      </div>
     </React.Fragment>
 
 )
