@@ -15,7 +15,7 @@ class KegControl extends React.Component {
 			selectedKeg: null,
 			editing: false
     };
-    this.handleClick = this.handleClick.bind(this);
+    
   }
 
   handleClick = () => {
@@ -99,20 +99,22 @@ class KegControl extends React.Component {
     if (this.state.selectedKeg != null) {
       currentlyVisibleState = <KegDetail keg = {this.state.selectedKeg} onClickingDelete = {this.handleDeletingKeg} onClickingEdit = {this.handleEditClick}/>
       buttonText = "Return to Keg List";
+    }else if (this.state.selectedKeg != null) {
+      currentlyVisibleState =
+      <KegDetail
+        keg = {this.state.selectedKeg}
+        onClickingEdit = {this.handleEditClick}
+        onClickingBuy = {this.handleBuyClick}
+        onClickingRestock = {this.handleRestockClick}
+        onClickingDelete = {this.handleDeletingKeg} />;
+      buttonText = "Return to Keg List";
 
-    }
-    else if (this.state.formVisibleOnPage) {
+    }else if (this.state.formVisibleOnPage) {
       currentlyVisibleState = <NewKegForm onNewKegCreation={this.handleAddingNewKegToList}  />;
       buttonText = "Return to Keg List";
     } else {
       currentlyVisibleState = <KegList kegList={this.state.masterKegList} onKegSelection={this.handleChangingSelectedKeg} />;
-      if (this.state.editing ) {
-      currentlyVisibleState = <EditKegForm keg = {this.state.selectedKeg} onEditKeg = {this.handleEditingKegInList} />
-      buttonText = "Return to Keg List";
-    } else if (this.state.selectedKeg != null) {
-
-    }
-      buttonText = "Add Keg";
+      buttonText = "add new Keg";
     }
 
     return (
