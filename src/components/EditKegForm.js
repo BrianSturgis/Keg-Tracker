@@ -8,15 +8,14 @@ function EditKegForm (props) {
   function handleEditKegFormSubmission(event) {
     event.preventDefault();
     props.onEditKeg({
-      names: event.target.names.value, 
-      brand: event.target.brand.value, 
-      price: parseFloat(event.target.price.value), 
-      pintsLeft: parseFloat(event.target.pintsLeft.value), 
-      alcoholContent: parseFloat(event.target.alcoholContent.value), 
+      names: event.target.names.value,
+      brand: event.target.brand.value,
+      price: parseFloat(event.target.price.value),
+      pintsLeft: parseFloat(event.target.pintsLeft.value),
+      alcoholContent: parseFloat(event.target.alcoholContent.value),
       id: keg.id
   });
 }
-
 
   return (
     <React.Fragment>
@@ -30,7 +29,7 @@ function EditKegForm (props) {
   EditKegForm.propTypes = {
     keg: PropTypes.object,
     onEditKeg: PropTypes.func
-  
+
 }
 
 export default EditKegForm;

@@ -123,7 +123,6 @@ class KegControl extends React.Component {
       </React.Fragment>
     );
   }
-
 }
 
 export default KegControl;

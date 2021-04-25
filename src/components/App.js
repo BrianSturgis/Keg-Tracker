@@ -6,14 +6,10 @@ function App(){
   return (
     <React.Fragment>
       <div className="container">
-        
-        <div className="header">header</div>
-        <div className="nav">
-          <div className="kegControl">
-          </div>
-        </div>
-        <div className="content">content</div>
+        <div className="header">Keg Tracker</div>
+        <div className="content">keg details </div>
         <div className="footer">
+          <h3>buttons</h3>
           <KegControl />
         </div>
       </div>
