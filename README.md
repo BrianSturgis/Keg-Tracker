@@ -3,12 +3,14 @@
 <p align="center">Project started on April 23rd, 2021</p>
 
 ## Description
-This is an application for a Bar to track their keg inventory.
+This is an application for a Bar to track their keg inventory. 
 
 
 ### Known Bugs
-- keg refill button does not top off keg it adds 124 pints and is not the expectation of the function
-  
+- keg refill button does not top off keg it adds 124 pints and is not the expectation of the function.
+
+- all fields requiring integers must receive them or the keg must be re updated completely for the math to properly reduce the keg amount by one pint at a time.
+
 
 <div align="center">
 
