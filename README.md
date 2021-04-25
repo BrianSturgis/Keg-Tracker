@@ -17,15 +17,7 @@ This is an application for a Bar to track their keg inventory.
 ## Component Diagram
 
 ## User Stories
-|  # 	|  Stories 	|
-|---	|---	|
-|  1 	|  A user should be able to Create, Update, Delete, and see list and details of kegs in the tap room. 	|
-|  2 	|   Decrease kegQuantity remaining per keg when a pint is purchased. For instance, if a user clicks "Buy", the quantity will decrease by one.	|
-|  3 	|   When the quantity of an keg is reduced to 0, the keg should say "Out of Stock". A user should not be able to reduce the quantity of a keg below 0.	|
-|  4 	|   When the quantity of an keg is reduced to 0, the user should be prompted with the option to restock the keg.	|
-|  5 	|   When there is a keg in the inventory that is extra expensive, the user should see the details of the keg listed in red font, not black.	|
-|  6 	|   Kegs should have fields for name, brand, price, alcoholContent.	|
-|  7 	|   A user should be able to see how many pints are left in a keg.	|
+
 </div>
 <div align="center">
 
