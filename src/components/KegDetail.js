@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 
 function KegDetail(props){
   const { keg, onClickingEdit, onClickingDelete } = props;
-
   return (
     <React.Fragment>
       <h3>Name: {keg.names}</h3>
