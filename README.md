@@ -3,7 +3,14 @@
 <p align="center">Project started on April 23rd, 2021</p>
 
 ## Description
-This is an application for a Bar to track their keg inventory. 
+This is an application for a Bar to track their keg inventory.
+
+## user stories
+As a user can see a list/menu of all available kegs. They can see its name, brand, price and alcoholContent.
+A user can submit a form to add a new keg to a list.
+A user can click on a keg to see its detail page.
+A user can see how many pints are left in a keg. Hint: A full keg has roughly 124 pints.
+A user can click a button next to a keg whenever I sell a pint of it. This will decrease the number of pints left by 1. 
 
 
 ### Known Bugs
