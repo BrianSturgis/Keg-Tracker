@@ -20,15 +20,11 @@ A user can click a button next to a keg whenever I sell a pint of it. This will 
 
 
 <div align="center">
-
 ## Component Diagram
 <img src="src/img/diagram.png" width="auto" height="auto" >
 ## User Stories
-
 </div>
 <div align="center">
-
-
 </div>
 
 ## Stretch Goals
