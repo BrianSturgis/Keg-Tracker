@@ -15,15 +15,11 @@ This is an application for a Bar to track their keg inventory.
 <div align="center">
 
 ## Component Diagram
-
+<img src="src/img/diagram.png" width="auto" height="auto" >
 ## User Stories
 
 </div>
 <div align="center">
-
----
-
-## Wireframe
 
 
 </div>
