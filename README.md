@@ -19,13 +19,11 @@ A user can click a button next to a keg whenever I sell a pint of it. This will 
 - all fields requiring integers must receive them or the keg must be re updated completely for the math to properly reduce the keg amount by one pint at a time.
 
 
-<div align="center">
 ## Component Diagram
 <img src="src/img/diagram.png" width="auto" height="auto" >
+
 ## User Stories
-</div>
-<div align="center">
-</div>
+
 
 ## Stretch Goals
 - Implement more CSS/CSS objects
@@ -48,6 +46,24 @@ A user can click a button next to a keg whenever I sell a pint of it. This will 
 - Adobe XD
 
 
+
+
+### `npm install`
+This app uses node.js. If you do not already have node.js installed, visit https://nodejs.org/en/download/ and install.
+After installing node, 
+- navigate to the root directory of the cloned repo in a as Command Prompt or Git Bash.
+- Type in "npm install".
+- Type in "npm run build".
+
+### `npm run build`
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
 ### `npm start`
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -59,14 +75,6 @@ You will also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**

@@ -6,16 +6,16 @@ import EditKegForm from './EditKegForm';
 
 class KegControl extends React.Component {
 
-constructor(props) {
-  super(props);
-  this.state = {
-    formVisibleOnPage: false,
-    createNewKeg: false,
-    masterKegList: [],
-    selectedKeg: null,
-    editing: false
-  };
-}
+  constructor(props) {
+    super(props);
+    this.state = {
+      formVisibleOnPage: false,
+      createNewKeg: false,
+      masterKegList: [],
+      selectedKeg: null,
+      editing: false
+    };
+  }
 
 handleClick = () => {
   if (this.state.selectedKeg != null) {
@@ -33,9 +33,9 @@ handleClick = () => {
 handleAddingNewKegToList = (newKeg) => {
   const newMasterKegList = this.state.masterKegList.concat(newKeg);
   this.setState({
-  masterKegList: newMasterKegList,
-  formVisibleOnPage: false
-});
+    masterKegList: newMasterKegList,
+    formVisibleOnPage: false
+  });
 }
 
 handleChangingSelectedKeg = (id) => {
@@ -49,10 +49,10 @@ handleEditClick = () => {
 }
 
 handleEditingKegInList = (kegToEdit) => {
-const editedMasterKegList = this.state.masterKegList
-  .filter(keg => keg.id !== this.state.selectedKeg.id)
-  .concat(kegToEdit);
-this.setState({
+  const editedMasterKegList = this.state.masterKegList
+    .filter(keg => keg.id !== this.state.selectedKeg.id)
+    .concat(kegToEdit);
+  this.setState({
     masterKegList: editedMasterKegList,
     editing: false,
     selectedKeg: kegToEdit
@@ -87,7 +87,7 @@ handleDeletingKeg = (id) => {
   this.setState({
     masterKegList: newMasterKegList,
     selectedKeg: null
-});
+  });
 }
 
 
@@ -96,8 +96,8 @@ render(){
   let buttonText = null;
 
   if (this.state.editing){
-    currentlyVisibleState = <EditKegForm keg = {this.state.selectedKeg} onEditKeg = {this.handleEditingKegInList} />
-    buttonText = "Return to Keg List"
+    currentlyVisibleState = <EditKegForm keg = {this.state.selectedKeg} onEditKeg = {this.handleEditingKegInList} />;
+    buttonText = "Return to Keg List";
   } else if (this.state.selectedKeg != null) {
     currentlyVisibleState =
     <KegDetail

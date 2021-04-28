@@ -14,23 +14,25 @@ function ReusableForm(props) {
           name='brand'
           placeholder='Brand' />
         <input
+          type='text'
           name='price'
           placeholder='Price' />
-				<input
+        <input
           type='text'
           name='alcoholContent'
           placeholder='alcohol Content and type' />
-				<input
+        <input
           type='text'
           name='pintsLeft'
           placeholder='Pints per keg (a full keg is 124 pints)'
-					min="0"
+          min="0"
           max="124"/>
         <button type='submit'>{props.buttonText}</button>
       </form>
     </React.Fragment>
   );
 }
+
 
 ReusableForm.propTypes = {
   formSubmissionHandler: PropTypes.func,
