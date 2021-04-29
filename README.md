@@ -12,17 +12,13 @@ A user can click on a keg to see its detail page.
 A user can see how many pints are left in a keg. Hint: A full keg has roughly 124 pints.
 A user can click a button next to a keg whenever I sell a pint of it. This will decrease the number of pints left by 1. 
 
-
 ### Known Bugs
 - keg refill button does not top off keg it adds 124 pints and is not the expectation of the function.
 - css styling is set up for layout currently to show rows and columns and not meant for look
 - all fields requiring integers must receive them or the keg must be re updated completely for the math to properly reduce the keg amount by one pint at a time.
 
-
 ## Component Diagram
 <img src="src/img/diagram.png" width="auto" height="auto" >
-
-## User Stories
 
 
 ## Stretch Goals
@@ -46,33 +42,31 @@ A user can click a button next to a keg whenever I sell a pint of it. This will 
 - Adobe XD
 
 
-
-
 ### `npm install`
 This app uses node.js. If you do not already have node.js installed, visit https://nodejs.org/en/download/ and install.
-After installing node, 
+After installing node..
 - navigate to the root directory of the cloned repo in a as Command Prompt or Git Bash.
 - Type in "npm install".
 - Type in "npm run build".
 
 ### `npm run build`
-Builds the app for production to the `build` folder.\
+Builds the app for production to the `build` folder.
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
+The build is minified and the filenames include the hashes.
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm start`
-Runs the app in the development mode.\
+Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
+The page will reload if you make edits.
 You will also see any lint errors in the console.
 
 ### `npm test`
-Launches the test runner in the interactive watch mode.\
+Launches the test runner in the interactive watch mode.
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 
